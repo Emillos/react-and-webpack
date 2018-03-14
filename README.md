@@ -6,4 +6,4 @@
 
 ## How to use it:
 - Navigate to root and do npm 'install'
-- 'npm run start'
+- In your CLI: 'npm run start'
