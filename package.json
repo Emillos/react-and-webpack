@@ -5,7 +5,8 @@
   "author": "Filtenborg",
   "license": "MIT",
   "scripts": {
-    "start": "webpack"
+    "dev": "webpack --config configs/dev.js",
+    "prod": "webpack --config configs/prod.js"
   },
   "engines":{
     "npm": "5.7.1",
