@@ -4,9 +4,10 @@
 - React 16.2.0
 
 ## Includes:
-- production and developmentbuilds
+- 'Production' and 'development'-builds
+- 'Development'-build has live browserupdate
 
 ## How to use it:
 - Navigate to root and do npm 'install'
-- 'npm run dev': Builds app using development settings
+- 'npm run dev': Builds app using development settings which includes livereload
 - 'npm run prod': Builds app using production settings
