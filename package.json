@@ -5,10 +5,10 @@
   "author": "Filtenborg",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config configs/dev.js",
+    "dev": "node webpack_dev_server.js ./configs/dev.js --display-error-details",
     "prod": "webpack --config configs/prod.js"
   },
-  "engines":{
+  "engines": {
     "npm": "5.7.1",
     "node": "8.6.0"
   },
@@ -24,6 +24,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1"
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack-dev-server": "^3.1.1"
   }
 }

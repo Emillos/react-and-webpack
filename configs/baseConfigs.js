@@ -1,11 +1,14 @@
 const path = require('path');
 
+console.log(path.resolve(), 'path.resolve');
+
 module.exports = {
-  entry: path.resolve('./app.js'),
+  entry: {app:["./app.js"]},
   output: {
     filename: 'bundle.js',
-    path: path.resolve('./dist')
+    path: path.resolve('./dist/'),
   },
+  devtool: "sourcemap",
   module: {
     rules: [
       {
